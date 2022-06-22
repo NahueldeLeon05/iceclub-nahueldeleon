@@ -1,10 +1,10 @@
-import './App.css';
+import React from "react";
+import Navbar from "./Componentes/Header/NavBar"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-        <h3>ICE CLUB</h3>
-    </div>
-  );
+    <Navbar/>
+  )
 }
+//Fragment es una etiqueta HTML sin nada, vacia.
 export default App;
