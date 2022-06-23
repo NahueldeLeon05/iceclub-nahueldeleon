@@ -1,3 +1,4 @@
+import CartWidget from "./CartWidget"
 
 const NavBar= () => {
     return (
@@ -26,36 +27,15 @@ const NavBar= () => {
             <li><a class="dropdown-item" href="#">Esentials</a></li>
           </ul>
         </li>
+        <CartWidget/>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Buscar..."/>
+        <input class="form-control me-2" type="Buscar" placeholder="Search" aria-label="Buscar..."/>
         <button class="btn btn-outline-success" type="submit">Buscar</button>
       </form>
     </div>
   </div>
 </nav>
-          {/* <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a href="#" class="navbar-brand">ICE CLUB</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
-              <span class="navbar-toggler-icon"></span>  
-            </button>
-            <div class="collapse navbar-collapse" id="navbarMenu">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a href="#" class='nav-link'>Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class='nav-link'>Tienda</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class='nav-link'>Marcas</a>
-                </li>
-                <li class="nav-item">
-                  <a href="#" class='nav-link'>Historia</a>
-                </li>
-              </ul>
-            </div>
-          </nav> */}
       </>
     )
 }
